@@ -1,0 +1,188 @@
+{
+  "tool": {
+    "id": "probabilidade-pos-teste",
+    "title": "Probabilidade pós-teste (teorema de Bayes)",
+    "short": "Da probabilidade pré-teste à pós-teste pela razão de verossimilhança",
+    "spec": [
+      "medicina-preventiva-e-social",
+      "medicina-de-familia-e-comunidade",
+      "clinica-medica",
+      "medicina-de-emergencia"
+    ],
+    "desc": "Calcule a probabilidade pós-teste a partir da probabilidade pré-teste e da razão de verossimilhança do resultado, como no nomograma de Fagan (teorema de Bayes).",
+    "lead": "Converte a probabilidade pré-teste de uma doença na probabilidade depois de um resultado de exame, usando a razão de verossimilhança desse resultado.",
+    "fields": [
+      [
+        "pre",
+        "Probabilidade pré-teste (prevalência ou estimativa clínica)",
+        "num",
+        {
+          "min": 0.1,
+          "max": 99.9,
+          "step": 0.1,
+          "unit": "%",
+          "ph": "25"
+        }
+      ],
+      [
+        "rv",
+        "Razão de verossimilhança do resultado (RV+ se positivo, RV− se negativo)",
+        "num",
+        {
+          "min": 0.001,
+          "max": 1000,
+          "step": 0.01,
+          "ph": "8"
+        }
+      ]
+    ],
+    "formula": "<p>Chance pré-teste = p / (1 − p) · Chance pós-teste = chance pré-teste × RV · Probabilidade pós-teste = chance pós-teste / (1 + chance pós-teste).</p><p>É a forma de razão de chances do teorema de Bayes, que o nomograma de Fagan resolve graficamente.</p>",
+    "table": [
+      [
+        "Probabilidade pré-teste",
+        "RV = 10",
+        "RV = 2",
+        "RV = 0,5",
+        "RV = 0,1"
+      ],
+      [
+        "10%",
+        "52,6%",
+        "18,2%",
+        "5,3%",
+        "1,1%"
+      ],
+      [
+        "25%",
+        "76,9%",
+        "40,0%",
+        "14,3%",
+        "3,2%"
+      ],
+      [
+        "50%",
+        "90,9%",
+        "66,7%",
+        "33,3%",
+        "9,1%"
+      ]
+    ],
+    "table_note": "Probabilidades pós-teste calculadas pela fórmula acima.",
+    "tips": [
+      "A probabilidade pré-teste vem da prevalência no seu cenário (atenção primária, emergência, ambulatório especializado) ou de um escore clínico validado: o mesmo exame tem impacto diferente em cada cenário.",
+      "Com dois testes independentes, a pós-teste do primeiro vira a pré-teste do segundo. Só faça isso se os testes forem de fato independentes (não use dois exames que medem a mesma coisa).",
+      "Defina antes os limiares de conduta: abaixo do limiar de teste não se investiga, acima do limiar de tratamento se trata. O exame só é útil se puder cruzar um desses limiares.",
+      "Sem a RV, calcule-a pela ferramenta de teste diagnóstico 2×2 ou pela sensibilidade e especificidade publicadas: RV+ = S / (1 − E)."
+    ],
+    "sources": [
+      [
+        "Fagan TJ. Nomogram for Bayes's theorem. N Engl J Med, 1975.",
+        "https://doi.org/10.1056/NEJM197507312930513"
+      ],
+      [
+        "Deeks JJ, Altman DG. Diagnostic tests 4: likelihood ratios. BMJ, 2004.",
+        "https://doi.org/10.1136/bmj.329.7458.168"
+      ]
+    ],
+    "cases": [
+      [
+        "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        {
+          "pre": 25,
+          "rv": 8
+        },
+        {
+          "raw": {
+            "post": 72.73,
+            "oddsPost": 2.667
+          },
+          "level": "info"
+        }
+      ],
+      [
+        "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        {
+          "pre": 50,
+          "rv": 0.1
+        },
+        {
+          "raw": {
+            "post": 9.09
+          },
+          "verdict": "grande redução"
+        }
+      ],
+      [
+        "Pré-teste 10%, RV 1: sem mudança",
+        {
+          "pre": 10,
+          "rv": 1
+        },
+        {
+          "raw": {
+            "post": 10
+          },
+          "main": "10,0"
+        }
+      ]
+    ],
+    "batch": "saude-coletiva",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "saude-coletiva",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/saude-coletiva.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 2,
+      "passed": 2,
+      "cases": [
+        {
+          "label": "RV1 preserva probabilidade",
+          "input": {
+            "pre": 40,
+            "rv": 1
+          },
+          "expected": {
+            "post": 40
+          },
+          "status": "passed",
+          "failures": []
+        },
+        {
+          "label": "Pré50% e RV4 produzem80%",
+          "input": {
+            "pre": 50,
+            "rv": 4
+          },
+          "expected": {
+            "post": 80,
+            "oddsPost": 4
+          },
+          "status": "passed",
+          "failures": []
+        }
+      ]
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/saude-coletiva.php",
+    "sha256": "5f081943f8faff99f4a6ac07fc16af6d7f8e6aa64d874af2d00ed8bae97da6a2",
+    "bytes": 77577
+  },
+  "clinicalValidation": "not-performed"
+}

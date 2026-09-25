@@ -1,0 +1,57 @@
+[
+  {
+    "label": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+    "input": {
+      "pre": 25,
+      "rv": 8
+    },
+    "expected": {
+      "raw": {
+        "post": 72.73,
+        "oddsPost": 2.667
+      },
+      "level": "info"
+    },
+    "originalInput": {
+      "pre": 25,
+      "rv": 8
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+    "input": {
+      "pre": 50,
+      "rv": 0.1
+    },
+    "expected": {
+      "raw": {
+        "post": 9.09
+      },
+      "verdict": "grande redução"
+    },
+    "originalInput": {
+      "pre": 50,
+      "rv": 0.1
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Pré-teste 10%, RV 1: sem mudança",
+    "input": {
+      "pre": 10,
+      "rv": 1
+    },
+    "expected": {
+      "raw": {
+        "post": 10
+      },
+      "main": "10,0"
+    },
+    "originalInput": {
+      "pre": 10,
+      "rv": 1
+    },
+    "expandedZeroOptions": []
+  }
+]
