@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-probabilidade-pos-teste",
   "version": "0.1.0",
-  "description": "Probabilidade pós-teste (teorema de Bayes) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Probabilidade pós-teste (teorema de Bayes) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",

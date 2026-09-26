@@ -1,11 +1,11 @@
-/* tool-probabilidade-pos-teste · Elucenia · https://github.com/Elucenia/tool-probabilidade-pos-teste
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-probabilidade-pos-teste · ELUCENIA · https://github.com/Elucenia/tool-probabilidade-pos-teste
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"probabilidade-pos-teste","title":"Probabilidade pós-teste (teorema de Bayes)","fields":[["pre","Probabilidade pré-teste (prevalência ou estimativa clínica)","num",{"min":0.1,"max":99.9,"step":0.1,"unit":"%","ph":"25"}],["rv","Razão de verossimilhança do resultado (RV+ se positivo, RV− se negativo)","num",{"min":0.001,"max":1000,"step":0.01,"ph":"8"}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
