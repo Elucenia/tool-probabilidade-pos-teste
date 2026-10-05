@@ -1,6 +1,13 @@
 [
   {
-    "label": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+    "id": "probabilidade-pos-teste",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+    "originalInput": {
+      "pre": 25,
+      "rv": 8
+    },
     "input": {
       "pre": 25,
       "rv": 8
@@ -12,14 +19,36 @@
       },
       "level": "info"
     },
-    "originalInput": {
-      "pre": 25,
-      "rv": 8
+    "recordedResult": {
+      "main": [
+        "72,7",
+        "%"
+      ],
+      "label": "Probabilidade pós-teste",
+      "raw": {
+        "post": 72.72727272727273,
+        "oddsPre": 0.3333333333333333,
+        "oddsPost": 2.6666666666666665
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+    "id": "probabilidade-pos-teste",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+    "originalInput": {
+      "pre": 50,
+      "rv": 0.1
+    },
     "input": {
       "pre": 50,
       "rv": 0.1
@@ -30,14 +59,36 @@
       },
       "verdict": "grande redução"
     },
-    "originalInput": {
-      "pre": 50,
-      "rv": 0.1
+    "recordedResult": {
+      "main": [
+        "9,1",
+        "%"
+      ],
+      "label": "Probabilidade pós-teste",
+      "raw": {
+        "post": 9.090909090909092,
+        "oddsPre": 1,
+        "oddsPost": 0.1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Pré-teste 10%, RV 1: sem mudança",
+    "id": "probabilidade-pos-teste",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Pré-teste 10%, RV 1: sem mudança",
+    "originalInput": {
+      "pre": 10,
+      "rv": 1
+    },
     "input": {
       "pre": 10,
       "rv": 1
@@ -48,10 +99,25 @@
       },
       "main": "10,0"
     },
-    "originalInput": {
-      "pre": 10,
-      "rv": 1
+    "recordedResult": {
+      "main": [
+        "10,0",
+        "%"
+      ],
+      "label": "Probabilidade pós-teste",
+      "raw": {
+        "post": 10,
+        "oddsPre": 0.11111111111111112,
+        "oddsPost": 0.11111111111111112
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]
