@@ -1,0 +1,701 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "probabilidade-pos-teste",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/probabilidade-pos-teste/calculator.js",
+    "sha256": "10aa4c06ce14943de318aa8edd3af11bf17c4120a910f1ee6ae4042dc2442d5d",
+    "bytes": 5374
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 3,
+    "replayed": 3,
+    "passed": 3,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "probabilidade-pos-teste",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+      "originalInput": {
+        "pre": 25,
+        "rv": 8
+      },
+      "input": {
+        "pre": 25,
+        "rv": 8
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "post": 72.73,
+          "oddsPost": 2.667
+        },
+        "level": "info"
+      },
+      "recordedResult": {
+        "main": [
+          "72,7",
+          "%"
+        ],
+        "label": "Probabilidade pós-teste",
+        "raw": {
+          "post": 72.72727272727273,
+          "oddsPre": 0.3333333333333333,
+          "oddsPost": 2.6666666666666665
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "pre": 25,
+            "rv": 8
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+          "startedAt": "2026-10-05T17:39:28.116Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "probabilidade-pos-teste",
+              "main": [
+                "72,7",
+                "%"
+              ],
+              "label": "Probabilidade pós-teste",
+              "raw": {
+                "post": 72.72727272727273,
+                "oddsPre": 0.3333333333333333,
+                "oddsPost": 2.6666666666666665
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "5c422a06878218398ab28da20401d16c03cbc3f4bb70a9af0ef40585ff84486e",
+          "bytes": 227,
+          "elapsedMs": 6.407000000006519
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+        "startedAt": "2026-10-05T17:39:28.116Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "probabilidade-pos-teste",
+            "main": [
+              "72,7",
+              "%"
+            ],
+            "label": "Probabilidade pós-teste",
+            "raw": {
+              "post": 72.72727272727273,
+              "oddsPre": 0.3333333333333333,
+              "oddsPost": 2.6666666666666665
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "5c422a06878218398ab28da20401d16c03cbc3f4bb70a9af0ef40585ff84486e",
+        "bytes": 227,
+        "elapsedMs": 6.407000000006519
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.post",
+            "expected": 72.73,
+            "obtained": 72.72727272727273,
+            "tolerance": 0.00500001,
+            "difference": 0.002727272727270247,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.oddsPost",
+            "expected": 2.667,
+            "obtained": 2.6666666666666665,
+            "tolerance": 0.0005000100000000001,
+            "difference": 0.0003333333333332966,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.post",
+            "expected": 72.72727272727273,
+            "obtained": 72.72727272727273,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.oddsPre",
+            "expected": 0.3333333333333333,
+            "obtained": 0.3333333333333333,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.oddsPost",
+            "expected": 2.6666666666666665,
+            "obtained": 2.6666666666666665,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "72,7",
+            "obtained": "72,7",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "%",
+            "obtained": "%",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "probabilidade-pos-teste",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+      "originalInput": {
+        "pre": 50,
+        "rv": 0.1
+      },
+      "input": {
+        "pre": 50,
+        "rv": 0.1
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "post": 9.09
+        },
+        "verdict": "grande redução"
+      },
+      "recordedResult": {
+        "main": [
+          "9,1",
+          "%"
+        ],
+        "label": "Probabilidade pós-teste",
+        "raw": {
+          "post": 9.090909090909092,
+          "oddsPre": 1,
+          "oddsPost": 0.1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "pre": 50,
+            "rv": 0.1
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+          "startedAt": "2026-10-05T17:39:28.428Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "probabilidade-pos-teste",
+              "main": [
+                "9,1",
+                "%"
+              ],
+              "label": "Probabilidade pós-teste",
+              "raw": {
+                "post": 9.090909090909092,
+                "oddsPre": 1,
+                "oddsPost": 0.1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "088594cec2e87c5ab8690277c7a55f8a2fcd7f51a55719ef4384735b30bc6db4",
+          "bytes": 194,
+          "elapsedMs": 4.568900000012945
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+        "startedAt": "2026-10-05T17:39:28.428Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "probabilidade-pos-teste",
+            "main": [
+              "9,1",
+              "%"
+            ],
+            "label": "Probabilidade pós-teste",
+            "raw": {
+              "post": 9.090909090909092,
+              "oddsPre": 1,
+              "oddsPost": 0.1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "088594cec2e87c5ab8690277c7a55f8a2fcd7f51a55719ef4384735b30bc6db4",
+        "bytes": 194,
+        "elapsedMs": 4.568900000012945
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.post",
+            "expected": 9.09,
+            "obtained": 9.090909090909092,
+            "tolerance": 0.00500001,
+            "difference": 0.0009090909090918586,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.post",
+            "expected": 9.090909090909092,
+            "obtained": 9.090909090909092,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.oddsPre",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.oddsPost",
+            "expected": 0.1,
+            "obtained": 0.1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "9,1",
+            "obtained": "9,1",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "%",
+            "obtained": "%",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "probabilidade-pos-teste",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Pré-teste 10%, RV 1: sem mudança",
+      "originalInput": {
+        "pre": 10,
+        "rv": 1
+      },
+      "input": {
+        "pre": 10,
+        "rv": 1
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "post": 10
+        },
+        "main": "10,0"
+      },
+      "recordedResult": {
+        "main": [
+          "10,0",
+          "%"
+        ],
+        "label": "Probabilidade pós-teste",
+        "raw": {
+          "post": 10,
+          "oddsPre": 0.11111111111111112,
+          "oddsPost": 0.11111111111111112
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "pre": 10,
+            "rv": 1
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+          "startedAt": "2026-10-05T17:39:28.740Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "probabilidade-pos-teste",
+              "main": [
+                "10,0",
+                "%"
+              ],
+              "label": "Probabilidade pós-teste",
+              "raw": {
+                "post": 10,
+                "oddsPre": 0.11111111111111112,
+                "oddsPost": 0.11111111111111112
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "0e8aeb0e850ad171d5cd56575118b2e47a22a0a49a05f2e99ff5eb4cad260ff6",
+          "bytes": 214,
+          "elapsedMs": 3.419099999999162
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/probabilidade-pos-teste/calculate",
+        "startedAt": "2026-10-05T17:39:28.740Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "probabilidade-pos-teste",
+            "main": [
+              "10,0",
+              "%"
+            ],
+            "label": "Probabilidade pós-teste",
+            "raw": {
+              "post": 10,
+              "oddsPre": 0.11111111111111112,
+              "oddsPost": 0.11111111111111112
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "0e8aeb0e850ad171d5cd56575118b2e47a22a0a49a05f2e99ff5eb4cad260ff6",
+        "bytes": 214,
+        "elapsedMs": 3.419099999999162
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "10,0",
+            "obtained": "10,0",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.post",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.post",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.oddsPre",
+            "expected": 0.11111111111111112,
+            "obtained": 0.11111111111111112,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.oddsPost",
+            "expected": 0.11111111111111112,
+            "obtained": 0.11111111111111112,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "10,0",
+            "obtained": "10,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "%",
+            "obtained": "%",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
