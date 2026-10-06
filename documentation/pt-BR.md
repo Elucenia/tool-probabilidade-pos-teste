@@ -71,3 +71,40 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Probabilidade pós-teste de 72,7% (RV entre 5 e 10: aumento moderado)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Chance (odds) pré-teste | 0,333 |
+| Chance (odds) pós-teste | 2,667 |
+| Variação absoluta | +47,7 pontos percentuais |
+
+
+### 2
+
+Probabilidade pós-teste de 9,1% (RV ≤ 0,1: grande redução da probabilidade)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Chance (odds) pré-teste | 1,000 |
+| Chance (odds) pós-teste | 0,100 |
+| Variação absoluta | −40,9 pontos percentuais |
+
+
+### 3
+
+Probabilidade pós-teste de 10,0% (RV entre 0,5 e 2: o teste quase não muda a probabilidade)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Chance (odds) pré-teste | 0,111 |
+| Chance (odds) pós-teste | 0,111 |
+| Variação absoluta | +0,0 pontos percentuais |
+

@@ -71,3 +71,40 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Probabilité post-test de 72,7 % (RV entre 5 et 10 : augmentation modérée)
+
+| Détails du résultat | |
+| --- | --- |
+| Cotes pré-test | 0,333 |
+| Cotes post-test | 2,667 |
+| Variation absolue | +47,7 points de pourcentage |
+
+
+### 2
+
+Probabilité post-test de 9,1 % (RV ≤ 0,1 : forte réduction de la probabilité)
+
+| Détails du résultat | |
+| --- | --- |
+| Cotes pré-test | 1,000 |
+| Cotes post-test | 0,100 |
+| Variation absolue | −40,9 points de pourcentage |
+
+
+### 3
+
+Probabilité post-test de 10,0 % (RV entre 0,5 et 2 : le test modifie à peine la probabilité)
+
+| Détails du résultat | |
+| --- | --- |
+| Cotes pré-test | 0,111 |
+| Cotes post-test | 0,111 |
+| Variation absolue | +0,0 points de pourcentage |
+

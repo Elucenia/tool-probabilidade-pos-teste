@@ -71,3 +71,40 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Probabilità post-test di 72,7% (LR tra 5 e 10: aumento moderato)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Odds pre-test | 0,333 |
+| Odds post-test | 2,667 |
+| Variazione assoluta | +47,7 punti percentuali |
+
+
+### 2
+
+Probabilità post-test di 9,1% (LR ≤ 0,1: grande riduzione della probabilità)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Odds pre-test | 1,000 |
+| Odds post-test | 0,100 |
+| Variazione assoluta | −40,9 punti percentuali |
+
+
+### 3
+
+Probabilità post-test di 10,0% (LR tra 0,5 e 2: il test quasi non modifica la probabilità)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Odds pre-test | 0,111 |
+| Odds post-test | 0,111 |
+| Variazione assoluta | +0,0 punti percentuali |
+

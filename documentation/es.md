@@ -71,3 +71,40 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Probabilidad posprueba de 72,7% (RV entre 5 y 10: aumento moderado)
+
+| Detalles del resultado | |
+| --- | --- |
+| Odds preprueba | 0,333 |
+| Odds posprueba | 2,667 |
+| Variación absoluta | +47,7 puntos porcentuales |
+
+
+### 2
+
+Probabilidad posprueba de 9,1% (RV ≤ 0,1: gran reducción de la probabilidad)
+
+| Detalles del resultado | |
+| --- | --- |
+| Odds preprueba | 1,000 |
+| Odds posprueba | 0,100 |
+| Variación absoluta | −40,9 puntos porcentuales |
+
+
+### 3
+
+Probabilidad posprueba de 10,0% (RV entre 0,5 y 2: la prueba apenas cambia la probabilidad)
+
+| Detalles del resultado | |
+| --- | --- |
+| Odds preprueba | 0,111 |
+| Odds posprueba | 0,111 |
+| Variación absoluta | +0,0 puntos porcentuales |
+

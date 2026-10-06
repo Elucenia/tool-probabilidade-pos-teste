@@ -113,7 +113,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Bayes Odds:Fagan 1975; oddspré×LR, conversãopós; Deeks Altman 2004 LR",
-    "implementationVersion": "probabilidade-pos-teste@native-2026-10-03+10aa4c06ce14",
+    "implementationVersion": "probabilidade-pos-teste@native-2026-10-05+36f17779b3b9",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/1143310/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -203,7 +203,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "10aa4c06ce14943de318aa8edd3af11bf17c4120a910f1ee6ae4042dc2442d5d"
+      "implementationHash": "36f17779b3b9ee12531687098aa93414125f11b7f7db16671c8d21cd41decd56",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "probabilidade-pos-teste@native-2026-10-03+10aa4c06ce14",
+          "previousImplementationHash": "10aa4c06ce14943de318aa8edd3af11bf17c4120a910f1ee6ae4042dc2442d5d",
+          "implementationHash": "36f17779b3b9ee12531687098aa93414125f11b7f7db16671c8d21cd41decd56",
+          "scientificBodySha256": "4064b0f16232c6c35d2ecc84785ff6f6c7170267af6d5157cf1bfa7e5b01a3be",
+          "metadataContractHash": "9d705e52310155ce48cedd0924b10ee18cc0bd27ff70ba183cf2b30496c5d131",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A probabilidade pré-teste deve representar a população e o contexto clínico avaliados; a razão de verossimilhança deve corresponder ao teste e à categoria do resultado. Probabilidade e odds são grandezas diferentes: a atualização multiplica odds pela razão de verossimilhança e só depois retorna à probabilidade. Valores preditivos variam com a prevalência e não se transferem automaticamente entre estudos e serviços. O cálculo atualiza uma estimativa; não confirma nem exclui sozinho uma doença.",
     "limitsEvidence": {
@@ -233,20 +261,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/probabilidade-pos-teste/calculator.js",
-    "bytes": 5374,
-    "sha256": "10aa4c06ce14943de318aa8edd3af11bf17c4120a910f1ee6ae4042dc2442d5d"
+    "bytes": 5579,
+    "sha256": "36f17779b3b9ee12531687098aa93414125f11b7f7db16671c8d21cd41decd56"
   },
-  "sourceToolSha256": "26cfbaa40bcfa7780d42e9604eff45a3d9e7d5f4a3a1432959123148955b7d68",
+  "sourceToolSha256": "d469de0400510faf4f5feea7d62ce02f4732532b3847fed8196e44c09607b73e",
   "omittedFullReferenceBanks": [
     {
       "rows": 2,
       "sha256": "8ba985086ae6361ed87f3927b3c94fb6e55e24caff790f7237509b31a711a380",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 2,
       "sha256": "8ba985086ae6361ed87f3927b3c94fb6e55e24caff790f7237509b31a711a380",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

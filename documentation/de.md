@@ -71,3 +71,40 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Posttestwahrscheinlichkeit von 72,7% (LR zwischen 5 und 10: mäßige Zunahme)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Prätest-Odds | 0,333 |
+| Posttest-Odds | 2,667 |
+| Absolute Veränderung | +47,7 Prozentpunkte |
+
+
+### 2
+
+Posttestwahrscheinlichkeit von 9,1% (LR ≤ 0,1: starke Verringerung der Wahrscheinlichkeit)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Prätest-Odds | 1,000 |
+| Posttest-Odds | 0,100 |
+| Absolute Veränderung | −40,9 Prozentpunkte |
+
+
+### 3
+
+Posttestwahrscheinlichkeit von 10,0% (LR zwischen 0,5 und 2: der Test verändert die Wahrscheinlichkeit kaum)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Prätest-Odds | 0,111 |
+| Posttest-Odds | 0,111 |
+| Absolute Veränderung | +0,0 Prozentpunkte |
+

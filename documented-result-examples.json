@@ -1,0 +1,1911 @@
+{
+  "id": "probabilidade-pos-teste",
+  "implementationVersion": "probabilidade-pos-teste@native-2026-10-05+36f17779b3b9",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Chance (odds) pré-teste",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,333",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Chance (odds) pós-teste",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2,667",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variação absoluta",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "+47,7 pontos percentuais",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilidade pós-teste de 72,7% (RV entre 5 e 10: aumento moderado)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Chance (odds) pré-teste",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1,000",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Chance (odds) pós-teste",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,100",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variação absoluta",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "−40,9 pontos percentuais",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilidade pós-teste de 9,1% (RV ≤ 0,1: grande redução da probabilidade)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Chance (odds) pré-teste",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Chance (odds) pós-teste",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variação absoluta",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "+0,0 pontos percentuais",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilidade pós-teste de 10,0% (RV entre 0,5 e 2: o teste quase não muda a probabilidade)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pre-test odds",
+                "locale": "en",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.333",
+                "locale": "en",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Post-test odds",
+                "locale": "en",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2.667",
+                "locale": "en",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Absolute change",
+                "locale": "en",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47.7 percentage points",
+                "locale": "en",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Post-test probability of 72.7% (LR between 5 and 10: moderate increase)",
+            "locale": "en",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pre-test odds",
+                "locale": "en",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1.000",
+                "locale": "en",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Post-test odds",
+                "locale": "en",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.100",
+                "locale": "en",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Absolute change",
+                "locale": "en",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40.9 percentage points",
+                "locale": "en",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Post-test probability of 9.1% (LR ≤ 0.1: large reduction in probability)",
+            "locale": "en",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Pre-test odds",
+                "locale": "en",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "en",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Post-test odds",
+                "locale": "en",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "en",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Absolute change",
+                "locale": "en",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0.0 percentage points",
+                "locale": "en",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Post-test probability of 10.0% (LR between 0.5 and 2: the test barely changes the probability)",
+            "locale": "en",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Odds preprueba",
+                "locale": "es",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,333",
+                "locale": "es",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Odds posprueba",
+                "locale": "es",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2,667",
+                "locale": "es",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variación absoluta",
+                "locale": "es",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47,7 puntos porcentuales",
+                "locale": "es",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilidad posprueba de 72,7% (RV entre 5 y 10: aumento moderado)",
+            "locale": "es",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Odds preprueba",
+                "locale": "es",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1,000",
+                "locale": "es",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Odds posprueba",
+                "locale": "es",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,100",
+                "locale": "es",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variación absoluta",
+                "locale": "es",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40,9 puntos porcentuales",
+                "locale": "es",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilidad posprueba de 9,1% (RV ≤ 0,1: gran reducción de la probabilidad)",
+            "locale": "es",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Odds preprueba",
+                "locale": "es",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "es",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Odds posprueba",
+                "locale": "es",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "es",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variación absoluta",
+                "locale": "es",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0,0 puntos porcentuales",
+                "locale": "es",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilidad posprueba de 10,0% (RV entre 0,5 y 2: la prueba apenas cambia la probabilidad)",
+            "locale": "es",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Cotes pré-test",
+                "locale": "fr",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,333",
+                "locale": "fr",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Cotes post-test",
+                "locale": "fr",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2,667",
+                "locale": "fr",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variation absolue",
+                "locale": "fr",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47,7 points de pourcentage",
+                "locale": "fr",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilité post-test de 72,7 % (RV entre 5 et 10 : augmentation modérée)",
+            "locale": "fr",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Cotes pré-test",
+                "locale": "fr",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1,000",
+                "locale": "fr",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Cotes post-test",
+                "locale": "fr",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,100",
+                "locale": "fr",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variation absolue",
+                "locale": "fr",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40,9 points de pourcentage",
+                "locale": "fr",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilité post-test de 9,1 % (RV ≤ 0,1 : forte réduction de la probabilité)",
+            "locale": "fr",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Cotes pré-test",
+                "locale": "fr",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "fr",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Cotes post-test",
+                "locale": "fr",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "fr",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variation absolue",
+                "locale": "fr",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0,0 points de pourcentage",
+                "locale": "fr",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilité post-test de 10,0 % (RV entre 0,5 et 2 : le test modifie à peine la probabilité)",
+            "locale": "fr",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prätest-Odds",
+                "locale": "de",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,333",
+                "locale": "de",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Posttest-Odds",
+                "locale": "de",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2,667",
+                "locale": "de",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Absolute Veränderung",
+                "locale": "de",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47,7 Prozentpunkte",
+                "locale": "de",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Posttestwahrscheinlichkeit von 72,7% (LR zwischen 5 und 10: mäßige Zunahme)",
+            "locale": "de",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prätest-Odds",
+                "locale": "de",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1,000",
+                "locale": "de",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Posttest-Odds",
+                "locale": "de",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,100",
+                "locale": "de",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Absolute Veränderung",
+                "locale": "de",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40,9 Prozentpunkte",
+                "locale": "de",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Posttestwahrscheinlichkeit von 9,1% (LR ≤ 0,1: starke Verringerung der Wahrscheinlichkeit)",
+            "locale": "de",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Prätest-Odds",
+                "locale": "de",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "de",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Posttest-Odds",
+                "locale": "de",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "de",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Absolute Veränderung",
+                "locale": "de",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0,0 Prozentpunkte",
+                "locale": "de",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Posttestwahrscheinlichkeit von 10,0% (LR zwischen 0,5 und 2: der Test verändert die Wahrscheinlichkeit kaum)",
+            "locale": "de",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Odds pre-test",
+                "locale": "it",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,333",
+                "locale": "it",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Odds post-test",
+                "locale": "it",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2,667",
+                "locale": "it",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variazione assoluta",
+                "locale": "it",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47,7 punti percentuali",
+                "locale": "it",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilità post-test di 72,7% (LR tra 5 e 10: aumento moderato)",
+            "locale": "it",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Odds pre-test",
+                "locale": "it",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1,000",
+                "locale": "it",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Odds post-test",
+                "locale": "it",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,100",
+                "locale": "it",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variazione assoluta",
+                "locale": "it",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40,9 punti percentuali",
+                "locale": "it",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilità post-test di 9,1% (LR ≤ 0,1: grande riduzione della probabilità)",
+            "locale": "it",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Odds pre-test",
+                "locale": "it",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "it",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Odds post-test",
+                "locale": "it",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0,111",
+                "locale": "it",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Variazione assoluta",
+                "locale": "it",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0,0 punti percentuali",
+                "locale": "it",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Probabilità post-test di 10,0% (LR tra 0,5 e 2: il test quasi non modifica la probabilità)",
+            "locale": "it",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الأرجحية قبل الاختبار",
+                "locale": "ar",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "٠٫٣٣٣",
+                "locale": "ar",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الأرجحية بعد الاختبار",
+                "locale": "ar",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "٢٫٦٦٧",
+                "locale": "ar",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "التغير المطلق",
+                "locale": "ar",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "؜+٤٧٫٧ نقطة مئوية",
+                "locale": "ar",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "احتمال ما بعد الاختبار ٧٢٫٧% (LR بين 5 و10: زيادة متوسطة)",
+            "locale": "ar",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الأرجحية قبل الاختبار",
+                "locale": "ar",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "١٫٠٠٠",
+                "locale": "ar",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الأرجحية بعد الاختبار",
+                "locale": "ar",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "٠٫١٠٠",
+                "locale": "ar",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "التغير المطلق",
+                "locale": "ar",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−٤٠٫٩ نقطة مئوية",
+                "locale": "ar",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "احتمال ما بعد الاختبار ٩٫١% (LR ≤ 0,1: انخفاض كبير في الاحتمال)",
+            "locale": "ar",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الأرجحية قبل الاختبار",
+                "locale": "ar",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "٠٫١١١",
+                "locale": "ar",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الأرجحية بعد الاختبار",
+                "locale": "ar",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "٠٫١١١",
+                "locale": "ar",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "التغير المطلق",
+                "locale": "ar",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "؜+٠٫٠ نقطة مئوية",
+                "locale": "ar",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "احتمال ما بعد الاختبار ١٠٫٠% (LR بين 0,5 و2: يكاد الاختبار لا يغير الاحتمال)",
+            "locale": "ar",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "检前赔率",
+                "locale": "zh",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.333",
+                "locale": "zh",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "检后赔率",
+                "locale": "zh",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2.667",
+                "locale": "zh",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "绝对变化",
+                "locale": "zh",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47.7 个百分点",
+                "locale": "zh",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "检后概率为 72.7%（LR 在 5 到 10 之间：中度增加）",
+            "locale": "zh",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "检前赔率",
+                "locale": "zh",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1.000",
+                "locale": "zh",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "检后赔率",
+                "locale": "zh",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.100",
+                "locale": "zh",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "绝对变化",
+                "locale": "zh",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40.9 个百分点",
+                "locale": "zh",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "检后概率为 9.1%（LR ≤ 0.1：概率大幅降低）",
+            "locale": "zh",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "检前赔率",
+                "locale": "zh",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "zh",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "检后赔率",
+                "locale": "zh",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "zh",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "绝对变化",
+                "locale": "zh",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0.0 个百分点",
+                "locale": "zh",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "检后概率为 10.0%（LR 在 0.5 到 2 之间：该检验几乎不改变概率）",
+            "locale": "zh",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "検査前オッズ",
+                "locale": "ja",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.333",
+                "locale": "ja",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "検査後オッズ",
+                "locale": "ja",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2.667",
+                "locale": "ja",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "絶対変化",
+                "locale": "ja",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47.7 パーセントポイント",
+                "locale": "ja",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "事後確率 72.7%（LR が 5 と 10 の間：中等度の増加）",
+            "locale": "ja",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "検査前オッズ",
+                "locale": "ja",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1.000",
+                "locale": "ja",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "検査後オッズ",
+                "locale": "ja",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.100",
+                "locale": "ja",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "絶対変化",
+                "locale": "ja",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40.9 パーセントポイント",
+                "locale": "ja",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "事後確率 9.1%（LR ≤ 0.1：確率の大きな低下）",
+            "locale": "ja",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "検査前オッズ",
+                "locale": "ja",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "ja",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "検査後オッズ",
+                "locale": "ja",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "ja",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "絶対変化",
+                "locale": "ja",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0.0 パーセントポイント",
+                "locale": "ja",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "事後確率 10.0%（LR が 0.5 と 2 の間：検査は確率をほとんど変えない）",
+            "locale": "ja",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Pré-teste 25%, RV 8: chance 1/3 × 8 = 2,667; pós-teste 72,7%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "परीक्षण-पूर्व ऑड्स",
+                "locale": "hi",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.333",
+                "locale": "hi",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.333
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "परीक्षण-पश्चात ऑड्स",
+                "locale": "hi",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "2.667",
+                "locale": "hi",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  2.667
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "निरपेक्ष परिवर्तन",
+                "locale": "hi",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+47.7 प्रतिशत अंक",
+                "locale": "hi",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  47.7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "परीक्षण-पश्चात संभावना 72.7% (LR 5 और 10 के बीच: मध्यम वृद्धि)",
+            "locale": "hi",
+            "template": "documented-authored-7120a4fe87814d12698b",
+            "sourceNumbers": [
+              72.7
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 50%, RV− 0,1: pós-teste 9,1%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "परीक्षण-पूर्व ऑड्स",
+                "locale": "hi",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "1.000",
+                "locale": "hi",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "परीक्षण-पश्चात ऑड्स",
+                "locale": "hi",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.100",
+                "locale": "hi",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.1
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "निरपेक्ष परिवर्तन",
+                "locale": "hi",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "−40.9 प्रतिशत अंक",
+                "locale": "hi",
+                "template": "documented-authored-84def8b52d59c5b99785",
+                "sourceNumbers": [
+                  40.9
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "परीक्षण-पश्चात संभावना 9.1% (LR ≤ 0.1: संभावना में बड़ी कमी)",
+            "locale": "hi",
+            "template": "documented-authored-22327c10f0b56c086f5c",
+            "sourceNumbers": [
+              9.1
+            ]
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "Pré-teste 10%, RV 1: sem mudança",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "परीक्षण-पूर्व ऑड्स",
+                "locale": "hi",
+                "template": "documented-authored-4e7ef0d0ca1a5efb45df"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "hi",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "परीक्षण-पश्चात ऑड्स",
+                "locale": "hi",
+                "template": "documented-authored-2e0b2fe09db63c0b38e2"
+              },
+              "value": {
+                "text": "0.111",
+                "locale": "hi",
+                "template": "documented-authored-bc4a486df4cc8b51da90",
+                "sourceNumbers": [
+                  0.111
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "निरपेक्ष परिवर्तन",
+                "locale": "hi",
+                "template": "documented-authored-6030c05f18fd7fbf37ee"
+              },
+              "value": {
+                "text": "+0.0 प्रतिशत अंक",
+                "locale": "hi",
+                "template": "documented-authored-cf4554b90b9b1b4eeb81",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "परीक्षण-पश्चात संभावना 10.0% (LR 0.5 और 2 के बीच: परीक्षण संभावना को लगभग नहीं बदलता)",
+            "locale": "hi",
+            "template": "documented-authored-27843b8da50ed0d554fa",
+            "sourceNumbers": [
+              10
+            ]
+          },
+          "level": "info"
+        }
+      }
+    ]
+  }
+}
