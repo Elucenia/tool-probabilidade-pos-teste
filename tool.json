@@ -53,7 +53,7 @@
       ],
       [
         "Fagan1975",
-        "https://doi.org/10.1056/NEJM197507313930513"
+        "https://doi.org/10.1056/NEJM197507312930513"
       ]
     ],
     "cases": [
@@ -243,7 +243,7 @@
           "readScope": "Direct original article body on category-specificLR,prior/posteriorodds and prevalence dependence read;not an implementation-by-line approval."
         },
         {
-          "url": "https://doi.org/10.1056/NEJM197507313930513",
+          "url": "https://doi.org/10.1056/NEJM197507312930513",
           "edition": "Fagan1975",
           "readScope": "Identity only;original nomogram not visually inspected."
         }

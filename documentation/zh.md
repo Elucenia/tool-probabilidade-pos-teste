@@ -44,7 +44,7 @@
 
 - [Deeks/Altman2004,Diagnostic tests4:likelihood ratios](https://pmc.ncbi.nlm.nih.gov/articles/PMC478236/)
 
-- [Fagan1975](https://doi.org/10.1056/NEJM197507313930513)
+- [Fagan1975](https://doi.org/10.1056/NEJM197507312930513)
 
 ## 复现技术测试
 
